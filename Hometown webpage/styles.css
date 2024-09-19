@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Courgette", cursive;
+    font-weight: 100;
+    font-style: normal;
+    display:block;
+    align-items: center;
+    color: black;
+
+}
+
+#hero {
+    background-image: url("images/lake.jpg");
+    background-size: cover;
+    padding: 10px 10px 150px 10px; 
+    display: flex;
+    flex-direction: column;
+    margin: 6px 6px 0;
+    border-radius: 15px 15px 0 0;
+    align-items: center;
+    }
+    
+ h1, h3 {
+    background:#457B9D ;
+    text-shadow: 3px 0px 10px #ffffff;
+    border: 3px solid black;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 25px;
+    align-items: center;
+    }
+   
+   
+h2 {
+    background: #fdae8d;
+    border-bottom: 3px solid #f47d77;
+    border-left: 3px solid #f47d77;
+    font-family: century;
+    font-size: 15px;
+    padding: 2px; 
+} 
+
+h4 {
+    margin-top: 0;
+}
+
+#todo {
+   width: 220px;
+   font-size: 18px;
+   margin-top: 2px;
+   margin-left: auto;
+   margin-right: auto;
+   }
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 1px solid #457B9D;
+    }
+    
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt {
+   text-align: center; 
+   font-size: 15px;
+   font-family: century;
+   font-weight: bold;
+}
+
+.color {
+    background: #A8DADC;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-top: 10px;
+}
+
+.guide {
+    background:#fcdbca; 
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-top: 10px;
+}
+    
+.title {
+    background: #fdae8d;
+    border-bottom: 3px solid #f47d77;
+    border-left: 3px solid #f47d77;
+    border-top: #fdae8d;
+    border-right: #fdae8d;
+    width: 70px;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+.me {
+    font-size: 15px;
+}
+
+#my-pic {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 12px;
+}
